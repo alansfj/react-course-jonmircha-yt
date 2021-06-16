@@ -11,6 +11,8 @@ import ComunicacionComponentes from "./components/ComunicacionComponentes";
 import CicloVida from "./components/CicloVida";
 import AjaxApsi from "./components/AjaxApis";
 import HookUseState from "./components/HookUseState";
+import ScrollHooks from "./components/ScrollHooks";
+import RelojHooks from "./components/RelojHooks";
 
 function App() {
   return (
@@ -65,6 +67,10 @@ function App() {
           <AjaxApsi />
           <hr />
           <HookUseState />
+          <hr />
+          <ScrollHooks />
+          <hr />
+          <RelojHooks />
         </section>
       </header>
     </div>
