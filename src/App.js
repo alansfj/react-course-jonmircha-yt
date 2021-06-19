@@ -13,6 +13,9 @@ import AjaxApsi from "./components/AjaxApis";
 import HookUseState from "./components/HookUseState";
 import ScrollHooks from "./components/ScrollHooks";
 import RelojHooks from "./components/RelojHooks";
+import AjaxHooks from "./components/AjaxHooks";
+import Referencias from "./components/Referencias";
+import Formularios from "./components/Formularios";
 
 function App() {
   return (
@@ -71,6 +74,12 @@ function App() {
           <ScrollHooks />
           <hr />
           <RelojHooks />
+          <hr />
+          <AjaxHooks />
+          <hr />
+          <Referencias />
+          <hr />
+          <Formularios />
         </section>
       </header>
     </div>
